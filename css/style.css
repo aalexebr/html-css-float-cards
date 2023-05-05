@@ -4,3 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*DEBUG*/
+.debug .float-container{
+    border: 2px dotted lightcoral;
+}
+.debug .business-card{
+    border: 2px dotted crimson;
+}
+
+/* GENERAL */
+body{
+    max-width: 1200px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    font-family: 'Fredoka', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+/* HEADER */
+
+header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* MAIN */
+
+.paragraph{
+    margin-bottom: 20px;
+}
+
+/* FLOATS */
+.business-card{
+    float: left;
+}
+img{
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+h5{
+    display: inline-block;
+}
+.business-card{
+    background-color: black;
+    color: white;
+    width: calc(100%/3);
+}
+.card-text{
+    margin: 5px;
+    vertical-align: middle;
+    line-height: 28px;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
